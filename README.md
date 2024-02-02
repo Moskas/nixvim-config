@@ -1,0 +1,2 @@
+# WIP Nixvim config
+
