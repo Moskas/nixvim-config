@@ -2,9 +2,7 @@
   plugins.conform-nvim = {
     enable = true;
     notifyOnError = true;
-    formattersByFt = {
-      nix = ["alejandra" "nixfmt"];
-    };
+    formattersByFt = { nix = [ "alejandra" "nixfmt" ]; };
   };
 
   keymaps = [

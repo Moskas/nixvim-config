@@ -1,3 +1,1 @@
-{
-  import = [ ./autopairs.nix ];
-}
+{ imports = [ ./autopairs.nix ./persistence.nix ./harpoon.nix ]; }

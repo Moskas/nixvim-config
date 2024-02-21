@@ -33,7 +33,7 @@
   };
   keymaps = [{
     mode = [ "n" "v" ];
-    key = "<leader>cf";
+    key = "<leader>cF";
     action = "<cmd>lua vim.lsp.buf.format()<cr>";
     options = {
       silent = true;

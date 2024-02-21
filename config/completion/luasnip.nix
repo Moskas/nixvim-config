@@ -1,4 +1,4 @@
-{ pkgs, config, ... }: {
+{ pkgs, ... }: {
   plugins.luasnip = {
     enable = true;
     extraConfig = {
