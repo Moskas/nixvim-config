@@ -16,7 +16,7 @@
     startInInsert = true;
     terminalMappings = true;
     persistMode = true;
-    insertMappings = true;
+    insertMappings = false;
     closeOnExit = true;
     shell = "zsh";
     direction = "horizontal"; # 'vertical' | 'horizontal' | 'window' | 'float'

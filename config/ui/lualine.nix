@@ -22,5 +22,11 @@
       lualine_z = [ ''" " .. os.date("%R")'' ];
     };
   };
+
+  extraConfigLua = ''
+    require('lualine').setup {
+      extensions = { 'toggleterm'}
+      }
+  '';
 }
 

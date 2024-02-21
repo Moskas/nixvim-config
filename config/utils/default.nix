@@ -1,1 +1,4 @@
-{ imports = [ ./autopairs.nix ./persistence.nix ./harpoon.nix ]; }
+{
+  imports =
+    [ ./autopairs.nix ./persistence.nix ./harpoon.nix ./markdown-preview.nix ];
+}

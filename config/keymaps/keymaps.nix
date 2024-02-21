@@ -11,7 +11,23 @@
     }
     {
       key = "<leader>on";
+      mode = [ "n" "v" ];
       action = ":Neotree<return>";
+    }
+    {
+      key = "<leader>wv";
+      mode = [ "n" "v" ];
+      action = ":vsplit<return>";
+    }
+    {
+      key = "<leader>wh";
+      mode = [ "n" "v" ];
+      action = ":split<return>";
+    }
+    {
+      key = "<leader>wq";
+      mode = [ "n" "v" ];
+      action = ":q<return>";
     }
   ];
 }
