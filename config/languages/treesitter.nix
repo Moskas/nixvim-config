@@ -54,8 +54,8 @@
     };
 
     ts-context-commentstring = {
-    	enable = true;
-    	disableAutoInitialization = false;
+      enable = true;
+      disableAutoInitialization = false;
     };
   };
 }

@@ -1,0 +1,3 @@
+{
+  import = [ ./autopairs.nix ];
+}
