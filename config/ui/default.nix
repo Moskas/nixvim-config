@@ -2,6 +2,8 @@
   imports = [
     ./alpha.nix
     ./bufferline.nix
+    ./barbecue.nix
+    ./chadtree.nix
     ./colorscheme.nix
     ./floaterm.nix
     ./indent-blankline.nix

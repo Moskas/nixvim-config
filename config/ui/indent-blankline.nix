@@ -1,7 +1,7 @@
 {
   plugins.indent-blankline = {
     enable = true;
-    indent.char = "|";
+    indent.char = "│";
     scope = {
       enabled = true;
       showStart = true;

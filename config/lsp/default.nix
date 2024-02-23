@@ -1,1 +1,1 @@
-{ imports = [ ./lsp.nix ./none-ls.nix ./conform.nix ]; }
+{ imports = [ ./lsp.nix ./lsp-lines.nix ./none-ls.nix ./conform.nix ]; }

@@ -1,7 +1,6 @@
 {
   plugins.markdown-preview = {
     enable = true;
-    #browser = "";
     theme = "dark";
   };
   keymaps = [{
