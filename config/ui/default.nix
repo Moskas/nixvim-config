@@ -1,15 +1,18 @@
 {
   imports = [
     ./alpha.nix
+    ./bufferline.nix
     ./colorscheme.nix
-    ./which-key.nix
+    ./floaterm.nix
+    ./indent-blankline.nix
+    ./illuminate.nix
     ./lualine.nix
     ./neo-tree.nix
     ./notify.nix
     ./noice.nix
-    ./indent-blankline.nix
-    ./floaterm.nix
     ./toggleterm.nix
-    ./bufferline.nix
+    ./todo-comments.nix
+    ./wrapping.nix
+    ./which-key.nix
   ];
 }

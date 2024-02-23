@@ -9,6 +9,7 @@
         eslint.enable = true;
         nixd.enable = true;
         vls.enable = true;
+        bashls.enable = true;
         rust-analyzer = {
           enable = true;
           installCargo = true;

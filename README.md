@@ -1,5 +1,5 @@
-# Nixvim config
-My simple Nixvim config that tries to replicate my [Doom Emacs config](https://github.com/Moskas/emacs-config).  
+# Doom-nixvim config
+My Nixvim config that tries to replicate my [Doom Emacs config](https://github.com/Moskas/emacs-config).  
 It's highly WIP with low importance as Neovim isn't my main editor.
 
 ## Running
@@ -14,7 +14,7 @@ To install my configuration (or any Nixvim config that uses its flake starter), 
 ```nix
 inputs.nixvim-config.url = "github:Moskas/nixvim-config";
 ```
-And add the Nixvim default package. I'll show it using home-manager packages:
+and then add the Nixvim default package. I'll show it using environment packages:
 ```nix 
 environment.systemPackages = with pkgs; [ 
     inputs.nixvim-config.packages.${system}.default

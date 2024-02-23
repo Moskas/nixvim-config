@@ -7,7 +7,7 @@
 
   keymaps = [{
     mode = "n";
-    key = "<leader>olg";
+    key = "<leader>ol";
     action = "<cmd>LazyGit<CR>";
     options = { desc = "LazyGit (root dir)"; };
   }];
