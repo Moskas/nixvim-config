@@ -1,1 +1,6 @@
-{ plugins.gitblame.enable = true; }
+{
+  plugins.gitblame = {
+    enable = true;
+    dateFormat = "%r";
+  };
+}

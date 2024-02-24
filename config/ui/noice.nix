@@ -1,12 +1,12 @@
 {
   plugins.noice = {
-    enable = false;
+    enable = true;
     presets = {
       bottom_search = true;
       command_palette = false;
     };
     notify = { enabled = false; };
-    messages = { enabled = true; };
+    messages = { enabled = false; };
     lsp = {
       message = { enabled = true; };
       progress = {
@@ -15,8 +15,12 @@
       };
     };
     popupmenu = {
-      enabled = true;
+      enabled = false;
       backend = "nui";
+    };
+    cmdline = {
+      enabled = true;
+      view = "cmdline";
     };
     format = {
       filter = {

@@ -29,7 +29,7 @@
       winblend = 0;
     };
     winbar = {
-      enabled = false;
+      enabled = true;
       nameFormatter = ''
         function(term)
           return term.name

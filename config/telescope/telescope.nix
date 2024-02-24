@@ -1,7 +1,10 @@
 {
   plugins.telescope = {
     enable = true;
-    extensions = { fzf-native.enable = true; };
+    extensions = {
+      fzf-native.enable = true;
+      file_browser.enable = true;
+    };
     keymaps = {
       "<leader><space>" = {
         action = "find_files, {}";
@@ -12,7 +15,7 @@
         desc = "Find project files";
       };
       "<leader>/" = {
-        action = "live_grep";
+        action = "live_grep, {}";
         desc = "Grep (root dir)";
       };
       "<leader>:" = {
@@ -27,10 +30,10 @@
         action = "buffers, {}";
         desc = "Buffers";
       };
-      "<leader>b" = {
-        action = "buffers, {}";
-        desc = "+buffer";
-      };
+      #"<leader>b" = {
+      #  action = "buffers, {}";
+      #  desc = "+buffer";
+      #};
       "<C-p>" = {
         action = "git_files, {}";
         desc = "Search git files";
@@ -113,6 +116,13 @@
         silent = true;
         desc = "Todo (Telescope)";
       };
+    }
+
+    {
+      mode = "n";
+      key = "<leader>b";
+      action = "<cmd>Telescope file_browser<cr>";
+      options.desc = "Open file browser";
     }
   ];
   extraConfigLua = ''
