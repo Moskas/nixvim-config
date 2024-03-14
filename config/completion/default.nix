@@ -1,1 +1,6 @@
-{ imports = [ ./cmp.nix ./luasnip.nix ]; }
+{
+  imports = [
+    #./cmp.nix
+    ./luasnip.nix
+  ];
+}

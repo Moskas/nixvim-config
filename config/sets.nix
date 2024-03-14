@@ -18,7 +18,7 @@
       splitright = true;
 
       # Title
-      title = true;
+      title = false;
 
       # Enable mouse mode
       mouse = "a"; # Mouse

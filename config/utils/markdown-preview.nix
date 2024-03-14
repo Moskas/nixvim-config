@@ -1,7 +1,7 @@
 {
   plugins.markdown-preview = {
     enable = true;
-    theme = "dark";
+    settings = { theme = "dark"; };
   };
   keymaps = [{
     mode = "n";

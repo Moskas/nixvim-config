@@ -8,7 +8,7 @@
         pyright.enable = false;
         ruff-lsp.enable = true;
         eslint.enable = true;
-        nixd.enable = true;
+        nixd.enable = false;
         vls.enable = true;
         bashls.enable = true;
         rust-analyzer = {
