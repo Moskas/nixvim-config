@@ -1,12 +1,17 @@
 {
   plugins.gitsigns = {
     enable = false;
-    trouble = true;
-    currentLineBlame = false;
+    settings = {
+      trouble = true;
+      current_line_blame = false;
+    };
   };
   keymaps = [
     {
-      mode = [ "n" "v" ];
+      mode = [
+        "n"
+        "v"
+      ];
       key = "<leader>gh";
       action = "gitsigns";
       options = {
@@ -51,7 +56,10 @@
       };
     }
     {
-      mode = [ "n" "v" ];
+      mode = [
+        "n"
+        "v"
+      ];
       key = "<leader>ghr";
       action = ":Gitsigns reset_hunk<CR>";
       options = {
@@ -60,7 +68,10 @@
       };
     }
     {
-      mode = [ "n" "v" ];
+      mode = [
+        "n"
+        "v"
+      ];
       key = "<leader>ghs";
       action = ":Gitsigns stage_hunk<CR>";
       options = {

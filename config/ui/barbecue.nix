@@ -2,7 +2,10 @@
   plugins.barbecue = {
     enable = true;
     contextFollowIconColor = true;
-    excludeFiletypes = [ "netrw" "toggleterm" ];
+    excludeFiletypes = [
+      "netrw"
+      "toggleterm"
+    ];
   };
 
   # TODO Fix the errors with attempts to attach multiple tabs to servers

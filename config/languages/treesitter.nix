@@ -6,7 +6,9 @@
       nixvimInjections = true;
     };
 
-    treesitter-context = { enable = true; };
+    treesitter-context = {
+      enable = true;
+    };
 
     treesitter-textobjects = {
       enable = false;
@@ -48,8 +50,12 @@
       };
       swap = {
         enable = true;
-        swapNext = { "<leader>a" = "@parameters.inner"; };
-        swapPrevious = { "<leader>A" = "@parameter.outer"; };
+        swapNext = {
+          "<leader>a" = "@parameters.inner";
+        };
+        swapPrevious = {
+          "<leader>A" = "@parameter.outer";
+        };
       };
     };
 
@@ -59,4 +65,3 @@
     };
   };
 }
-

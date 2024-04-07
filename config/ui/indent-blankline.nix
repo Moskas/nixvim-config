@@ -1,10 +1,12 @@
 {
   plugins.indent-blankline = {
     enable = true;
-    indent.char = "│";
-    scope = {
-      enabled = true;
-      showStart = true;
+    settings = {
+      indent.char = "│";
+      scope = {
+        enabled = true;
+        show_start = true;
+      };
     };
   };
 }

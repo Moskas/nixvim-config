@@ -1,6 +1,6 @@
 {
   config = {
-    options = {
+    opts = {
       number = true;
       tabstop = 2;
       softtabstop = 2;
@@ -35,7 +35,11 @@
       undofile = true;
 
       # Set completeopt to have a better completion experience
-      completeopt = [ "menuone" "noselect" "noinsert" ]; # mostly just for cmp
+      completeopt = [
+        "menuone"
+        "noselect"
+        "noinsert"
+      ]; # mostly just for cmp
 
       # Enable 24-bit colors
       termguicolors = true;
@@ -51,8 +55,7 @@
       fileencoding = "utf-8";
 
       list = true; # Show invisible characters (tabs, eol, ...)
-      listchars =
-        "eol:↲,tab:|->,lead:·,space: ,trail:•,extends:→,precedes:←,nbsp:␣";
+      listchars = "eol:↲,tab:|->,lead:·,space: ,trail:•,extends:→,precedes:←,nbsp:␣";
     };
 
     extraConfigLua = ''

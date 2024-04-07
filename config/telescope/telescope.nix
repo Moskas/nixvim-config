@@ -3,128 +3,128 @@
     enable = true;
     extensions = {
       fzf-native.enable = true;
-      file_browser.enable = true;
+      file-browser.enable = true;
     };
     keymaps = {
       "<leader><space>" = {
         action = "find_files, {}";
-        desc = "Find project files";
+        # desc = "Find project files";
       };
       "<leader>ff" = {
         action = "find_files, {}";
-        desc = "Find project files";
+        # desc = "Find project files";
       };
       "<leader>/" = {
         action = "live_grep, {}";
-        desc = "Grep (root dir)";
+        # desc = "Grep (root dir)";
       };
       "<leader>:" = {
         action = "command_history, {}";
-        desc = "Command History";
+        # desc = "Command History";
       };
       "<leader>fr" = {
         action = "oldfiles, {}";
-        desc = "Recent";
+        # desc = "Recent";
       };
       "<leader>fb" = {
         action = "buffers, {}";
-        desc = "Buffers";
+        # desc = "Buffers";
       };
       #"<leader>b" = {
       #  action = "buffers, {}";
-      #  desc = "+buffer";
+      #  # desc = "+buffer";
       #};
       "<C-p>" = {
         action = "git_files, {}";
-        desc = "Search git files";
+        # desc = "Search git files";
       };
       "<leader>gc" = {
         action = "git_commits, {}";
-        desc = "commits";
+        # desc = "commits";
       };
       "<leader>gs" = {
         action = "git_status, {}";
-        desc = "status";
+        # desc = "status";
       };
       "<leader>sa" = {
         action = "autocommands, {}";
-        desc = "Auto Commands";
+        # desc = "Auto Commands";
       };
       "<leader>sb" = {
         action = "current_buffer_fuzzy_find, {}";
-        desc = "Buffer";
+        # desc = "Buffer";
       };
       "<leader>sc" = {
         action = "command_history, {}";
-        desc = "Command History";
+        # desc = "Command History";
       };
       "<leader>sC" = {
         action = "commands, {}";
-        desc = "Commands";
+        # desc = "Commands";
       };
       "<leader>sD" = {
         action = "diagnostics, {}";
-        desc = "Workspace diagnostics";
+        # desc = "Workspace diagnostics";
       };
       "<leader>sh" = {
         action = "help_tags, {}";
-        desc = "Help pages";
+        # desc = "Help pages";
       };
       "<leader>sH" = {
         action = "highlights, {}";
-        desc = "Search Highlight Groups";
+        # desc = "Search Highlight Groups";
       };
       "<leader>sk" = {
         action = "keymaps, {}";
-        desc = "Key maps";
+        # desc = "Key maps";
       };
       "<leader>sM" = {
         action = "man_pages, {}";
-        desc = "Man pages";
+        # desc = "Man pages";
       };
       "<leader>sm" = {
         action = "marks, {}";
-        desc = "Jump to Mark";
+        # desc = "Jump to Mark";
       };
       "<leader>so" = {
         action = "vim_options, {}";
-        desc = "Options";
+        # desc = "Options";
       };
       "<leader>sR" = {
         action = "resume, {}";
-        desc = "Resume";
+        # desc = "Resume";
       };
       "<leader>uC" = {
         action = "colorscheme, {}";
-        desc = "Colorscheme preview";
+        # desc = "Colorscheme preview";
       };
     };
   };
-  keymaps = [
-    {
-      mode = "n";
-      key = "<leader>sd";
-      action = "<cmd>Telescope diagnostics bufnr=0<cr>";
-      options = { desc = "Document diagnostics"; };
-    }
+  # keymaps = [
+  #   {
+  #     mode = "n";
+  #     key = "<leader>sd";
+  #     action = "<cmd>Telescope diagnostics bufnr=0<cr>";
+  #     options = { # desc = "Document diagnostics"; };
+  #   }
 
-    {
-      mode = "n";
-      key = "<leader>st";
-      action = "<cmd>TodoTelescope<cr>";
-      options = {
-        silent = true;
-        desc = "Todo (Telescope)";
-      };
-    }
+  #   {
+  #     mode = "n";
+  #     key = "<leader>st";
+  #     action = "<cmd>TodoTelescope<cr>";
+  #     options = {
+  #       silent = true;
+  #       # desc = "Todo (Telescope)";
+  #     };
+  #   }
 
-    {
-      mode = "n";
-      key = "<leader>b";
-      action = "<cmd>Telescope file_browser<cr>";
-      options.desc = "Open file browser";
-    }
-  ];
+  #   {
+  #     mode = "n";
+  #     key = "<leader>b";
+  #     action = "<cmd>Telescope file_browser<cr>";
+  #     options.desc = "Open file browser";
+  #   }
+  # ];
   extraConfigLua = ''
       require("telescope").setup{
           pickers = {
@@ -135,4 +135,3 @@
     }
   '';
 }
-

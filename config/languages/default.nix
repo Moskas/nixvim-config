@@ -1,1 +1,6 @@
-{ imports = [ ./treesitter.nix ./lint.nix ]; }
+{
+  imports = [
+    ./treesitter.nix
+    ./lint.nix
+  ];
+}

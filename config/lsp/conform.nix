@@ -3,7 +3,10 @@
     enable = true;
     notifyOnError = true;
     formattersByFt = {
-      nix = [ "alejandra" "nixfmt" ];
+      nix = [
+        "alejandra"
+        "nixfmt"
+      ];
       rust = [ "rustfmt" ];
     };
   };

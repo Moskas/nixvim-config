@@ -1,1 +1,8 @@
-{ imports = [ ./neogit.nix ./gitblame.nix ./lazygit.nix ./gitsigns.nix ]; }
+{
+  imports = [
+    ./neogit.nix
+    ./gitblame.nix
+    ./lazygit.nix
+    ./gitsigns.nix
+  ];
+}

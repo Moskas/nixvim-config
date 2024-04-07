@@ -5,10 +5,16 @@
       bottom_search = true;
       command_palette = false;
     };
-    notify = { enabled = false; };
-    messages = { enabled = false; };
+    notify = {
+      enabled = false;
+    };
+    messages = {
+      enabled = false;
+    };
     lsp = {
-      message = { enabled = true; };
+      message = {
+        enabled = true;
+      };
       progress = {
         enabled = false;
         view = "cmdline";
