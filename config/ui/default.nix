@@ -6,6 +6,7 @@
     ./chadtree.nix
     ./colorscheme.nix
     #./floaterm.nix
+    ./headlines.nix
     ./indent-blankline.nix
     ./illuminate.nix
     ./lualine.nix
@@ -13,6 +14,7 @@
     ./notify.nix
     ./noice.nix
     ./nui.nix
+    ./trouble.nix
     ./toggleterm.nix
     ./todo-comments.nix
     ./wrapping.nix

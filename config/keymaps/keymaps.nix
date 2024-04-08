@@ -9,10 +9,10 @@
       key = "<esc>";
       action = ":noh<return><esc>";
     }
-    {
-      key = "<leader>of";
-      action = ":FloatermToggle<return>";
-    }
+    # {
+    #   key = "<leader>of";
+    #   action = ":FloatermToggle<return>";
+    # }
     {
       key = "<leader>on";
       mode = [
@@ -164,6 +164,14 @@
         "v"
       ];
       action = ":bdelete<return>";
+    }
+    {
+      key = "<leader>b";
+      mode = [
+        "n"
+        "v"
+      ];
+      action = "<cmd>Telescope file_browser<cr>";
     }
   ];
 }

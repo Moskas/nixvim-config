@@ -2,10 +2,15 @@
   plugins.which-key = {
     enable = true;
     registrations = {
+      "<leader>ff" = "Telescope find file";
+      "<leader>fr" = "Telescope recent files";
+      "<leader>fb" = "Telescope find buffer";
+      "<leader>b" = "Telescope file browser";
+      "<leader>/" = "Telescope live grep";
       "<leader>ol" = "Open lazygit";
-      "<leader>oN" = "Open Neogit";
+      "<leader>gg" = "Open Neogit";
       "<leader>ot" = "Open toggleterm";
-      "<leader>of" = "Open floaterm";
+      # "<leader>of" = "Open floaterm";
       "<leader>on" = "Open NeoTree";
       "<leader>wj" = "Go to the lower window";
       "<leader>wk" = "Go to the upper window";
