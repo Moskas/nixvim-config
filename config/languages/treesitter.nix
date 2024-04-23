@@ -8,7 +8,9 @@
 
     treesitter-context = {
       enable = true;
-      maxLines = 1;
+      settings = {
+        max_lines = 1;
+      };
     };
 
     treesitter-textobjects = {

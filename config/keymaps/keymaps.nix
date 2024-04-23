@@ -14,6 +14,10 @@
     #   action = ":FloatermToggle<return>";
     # }
     {
+      key = "<leader>ot";
+      action = "<cmd>ToggleTerm<cr>";
+    }
+    {
       key = "<leader>on";
       mode = [
         "n"

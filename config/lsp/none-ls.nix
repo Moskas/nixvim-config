@@ -5,7 +5,6 @@
     updateInInsert = false;
     sources = {
       code_actions = {
-        #eslint_d.enable = true;
         gitsigns.enable = true;
         statix.enable = true;
       };
@@ -13,9 +12,9 @@
         statix = {
           enable = true;
         };
-        #luacheck = { enable = true; };
-        #flake8 = { enable = true; };
-        #eslint_d = { enable = true; };
+        deadnix = {
+          enable = true;
+        };
       };
       formatting = {
         nixpkgs_fmt = {
