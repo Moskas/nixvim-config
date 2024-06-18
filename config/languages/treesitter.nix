@@ -4,6 +4,10 @@
       enable = true;
       indent = true;
       nixvimInjections = true;
+      ensureInstalled = [
+        "nix"
+        "rust"
+      ];
     };
 
     treesitter-context = {
