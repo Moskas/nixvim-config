@@ -1,8 +1,11 @@
 {
-  imports = [
-    ./lsp.nix
-    ./lsp-lines.nix
-    ./none-ls.nix
-    ./conform.nix
-  ];
+  plugins = {
+    lsp-format.enable = true;
+    lsp = {
+      enable = true;
+      servers = {
+        nixd.enable = true;
+      };
+    };
+  };
 }
