@@ -3,6 +3,8 @@
   imports = [
     ./sets.nix
     ./ui
+    ./utils
+    ./keybinds.nix
     ./lsp
   ];
 }

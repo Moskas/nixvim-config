@@ -1,4 +1,5 @@
 {
+  imports = [ ./cmp.nix ];
   plugins = {
     lsp-format.enable = true;
     lsp = {

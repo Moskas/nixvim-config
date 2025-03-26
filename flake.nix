@@ -49,6 +49,10 @@
             default = nvim;
           };
 
+          devShells.default = pkgs.mkShell {
+            buildInputs = [ nvim ];
+          };
+
         };
     };
 }
