@@ -1,3 +1,6 @@
+[!NOTE]
+>Replaced by [nvf-config](https://github.com/Moskas/nvf-config)
+
 # Doom-nixvim config
 My Nixvim config that tries to replicate my [Doom Emacs config](https://github.com/Moskas/emacs-config).  
 It's highly WIP with low importance as Neovim isn't my main editor.
