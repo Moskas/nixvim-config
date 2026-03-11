@@ -66,24 +66,6 @@
       vim.cmd([[
           autocmd FileType * nnoremap <buffer> <CR> gf
       ]])
-
-      -- Neovide
-      if vim.g.neovide then
-        -- Neovide options
-        vim.g.neovide_fullscreen = false
-        vim.g.neovide_hide_mouse_when_typing = false
-        vim.g.neovide_refresh_rate = 165
-        vim.g.neovide_cursor_vfx_mode = "ripple"
-        vim.g.neovide_cursor_animate_command_line = true
-        vim.g.neovide_cursor_animate_in_insert_mode = true
-        vim.g.neovide_cursor_vfx_particle_lifetime = 5.0
-        vim.g.neovide_cursor_vfx_particle_density = 14.0
-        vim.g.neovide_cursor_vfx_particle_speed = 12.0
-        vim.g.neovide_transparency = 0.95
-
-        -- Neovide Font
-        vim.o.guifont = "JetBrainsMono Nerd Font:h14:Medium:i"
-      end
     '';
   };
 }
